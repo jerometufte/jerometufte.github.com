@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Jerome Tufte | Blog</title><link href="/" rel="alternate"></link><link href="/feeds/all-en.atom.xml" rel="self"></link><id>/</id><updated>2013-03-10T20:48:00+02:00</updated><entry><title>First Post - An Article About Something</title><link href="/my-first-post" rel="alternate"></link><updated>2013-03-10T20:48:00+02:00</updated><author><name>Jerome Tufte</name></author><id>tag:,2013-03-10:my-first-post</id><summary type="html">&lt;div class="system-message"&gt;
+&lt;p class="system-message-title"&gt;System Message: WARNING/2 (&lt;tt class="docutils"&gt;/Users/jerometufte/sites/python/blog/content/posts/post.rst&lt;/tt&gt;, line 2)&lt;/p&gt;
+&lt;p&gt;Title underline too short.&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+First Post - An Article About Something
+##############
+&lt;/pre&gt;
+&lt;/div&gt;
+</summary><category term="web"></category><category term="technology"></category></entry><entry><title>Second Post - Another Article About Something Else</title><link href="/my-second-post" rel="alternate"></link><updated>2013-03-10T20:48:00+02:00</updated><author><name>Jerome Tufte</name></author><id>tag:,2013-03-10:my-second-post</id><summary type="html">&lt;div class="system-message"&gt;
+&lt;p class="system-message-title"&gt;System Message: WARNING/2 (&lt;tt class="docutils"&gt;/Users/jerometufte/sites/python/blog/content/posts/post2.rst&lt;/tt&gt;, line 2)&lt;/p&gt;
+&lt;p&gt;Title underline too short.&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+Second Post - Another Article About Something Else
+##############
+&lt;/pre&gt;
+&lt;/div&gt;
+</summary><category term="web"></category><category term="technology"></category></entry></feed>
