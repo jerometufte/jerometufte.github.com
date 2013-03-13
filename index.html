@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 	<link rel="stylesheet" type="text/css" href="./theme/css/style.css">
-	<!--<link rel="stylesheet/less" type="text/css" href="/theme/css/style.less">-->
-	<!--<script src="/theme/js/less.js" type="text/javascript"></script>-->
+	<script type="text/javascript" src="//use.typekit.net/nkp1ibx.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	<link rel="stylesheet" type="text/css" href="./theme/css/pygments.css">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:800,400,300|Inconsolata' rel='stylesheet' type='text/css'>
 
@@ -16,53 +16,81 @@
 <body>
 	<section id="sidebar">
 		<figure id="user_logo">
-            <a href="."><div class="logo">&nbsp;</div></a>
+      <a href=".">
+      	      		<img src="theme/img/buffalo.png" alt="Jerome Tufte | Blog"></a>
+      				</a>
 		</figure>
 
 		<div class="user_meta">
-            <h1 id="user"><a href="." class="">Jerome Tufte</a></h1>
-			<h2></h2>
+      <h1 id="user"><a href="." class="">JEROME TUFTE</a></h1>
+      <h2 id="user-loc">Brooklyn, NY</h2>
+			<h3 id="user-tag"></h3>
 			<ul>
 																								</ul>
 		</div>
+		<ul id="user-connect">
+			<li class="connect-option connect-email"></li>
+			<li class="connect-option connect-linked"></li>
+			<li class="connect-option connect-git"></li>
+			<li class="connect-option connect-twitter"></li>
+		</ul>
 		<footer>
-			<address>
-				Powered by <a href="http://pelican.notmyidea.org/">Pelican</a>,
-		                theme by <a href="https://github.com/wting/pelican-svbtle">wting</a>.
-			</address>
+			Powered by <a href="http://pelican.notmyidea.org/">Pelican</a> and <a href="http://pages.github.com">Github Pages</a>
 		</footer>
 	</section>
 
 	<section id="posts">
-			<header>
-		<h1>Jerome Tufte's blog</h1>
-		<h3>
-			<script type="text/javascript">
-				var currentDate = new Date();
-				var day = currentDate.getDate();
-				var monthNames = [ "Jan", "Feb", "Mar", "Apr", "May", "June", "July", "Aug", "Sep", "Oct", "Nov", "Dec" ];
-				var month = monthNames[currentDate.getMonth()].toUpperCase();
-				var year = currentDate.getFullYear();
-				document.write(month + " " + day + ", " + year);
-			</script>
-		</h3>
-	</header>
-
+	
 	<dl>
 		<ol>
 							<li>
-					<h2 class="title">
-						<a href="./my-first-post" rel="bookmark" title="Permalink to First Post - An Article About Something">First Post - An Article About Something</a>
-					</h2>
-					<abbr class="published" title="2013-03-10T20:48:00">Mar 10, 2013</abbr>
+					<a href="./my-first-post.html" rel="bookmark" title="Permalink to First Post - An Article About Something">
+						<img class="post-image" src="theme/img/post1.png" />
+						<div class="post-text">
+							<h3 class="post-date">March 10, 2013
+							<h2 class="post-title">
+								First Post - An Article About Something
+							</h2>
+						</div>
+					</a>
 				</li>
 							<li>
-					<h2 class="title">
-						<a href="./my-second-post" rel="bookmark" title="Permalink to Second Post - Another Article About Something Else">Second Post - Another Article About Something Else</a>
-					</h2>
-					<abbr class="published" title="2013-03-10T20:48:00">Mar 10, 2013</abbr>
+					<a href="./my-second-post.html" rel="bookmark" title="Permalink to Second Post - Another Article About Something Else">
+						<img class="post-image" src="theme/img/post2.png" />
+						<div class="post-text">
+							<h3 class="post-date">February 22, 2013
+							<h2 class="post-title">
+								Second Post - Another Article About Something Else
+							</h2>
+						</div>
+					</a>
 				</li>
-					</ol>
+							<li>
+					<a href="./my-third-post.html" rel="bookmark" title="Permalink to Second Post - Another Article About Something Else">
+						<img class="post-image" src="theme/img/post3.png" />
+						<div class="post-text">
+							<h3 class="post-date">February 22, 2013
+							<h2 class="post-title">
+								Second Post - Another Article About Something Else
+							</h2>
+						</div>
+					</a>
+				</li>
+							<li>
+					<a href="./my-fourth-post.html" rel="bookmark" title="Permalink to Fourth Post - Another Article About Something Else">
+						<img class="post-image" src="theme/img/post4.png" />
+						<div class="post-text">
+							<h3 class="post-date">February 28, 2013
+							<h2 class="post-title">
+								Fourth Post - Another Article About Something Else
+							</h2>
+						</div>
+					</a>
+				</li>
+						<li class="powered-wrapper">
+				<h4 class="powered-by">Powered by <a href="http://pelican.notmyidea.org/">Pelican</a> and <a href="http://pages.github.com">Github Pages</a></h4>
+			</li>
+		</ol>
 	</dl>
 
 	<p class="paginator">

@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 	<link rel="stylesheet" type="text/css" href="./theme/css/style.css">
-	<!--<link rel="stylesheet/less" type="text/css" href="/theme/css/style.less">-->
-	<!--<script src="/theme/js/less.js" type="text/javascript"></script>-->
+	<script type="text/javascript" src="//use.typekit.net/nkp1ibx.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	<link rel="stylesheet" type="text/css" href="./theme/css/pygments.css">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:800,400,300|Inconsolata' rel='stylesheet' type='text/css'>
 
@@ -16,35 +16,38 @@
 <body>
 	<section id="sidebar">
 		<figure id="user_logo">
-            <a href="."><div class="logo">&nbsp;</div></a>
+      <a href=".">
+      	      		<img src="theme/img/post2.png" alt="Jerome Tufte | Blog"></a>
+      				</a>
 		</figure>
 
 		<div class="user_meta">
-            <h1 id="user"><a href="." class="">Jerome Tufte</a></h1>
-			<h2></h2>
+      <h1 id="user"><a href="." class="">JEROME TUFTE</a></h1>
+      <h2 id="user-loc">Brooklyn, NY</h2>
+			<h3 id="user-tag"></h3>
 			<ul>
 																								</ul>
 		</div>
+		<ul id="user-connect">
+			<li class="connect-option connect-email"></li>
+			<li class="connect-option connect-linked"></li>
+			<li class="connect-option connect-git"></li>
+			<li class="connect-option connect-twitter"></li>
+		</ul>
 		<footer>
-			<address>
-				Powered by <a href="http://pelican.notmyidea.org/">Pelican</a>,
-		                theme by <a href="https://github.com/wting/pelican-svbtle">wting</a>.
-			</address>
+			Powered by <a href="http://pelican.notmyidea.org/">Pelican</a> and <a href="http://pages.github.com">Github Pages</a>
 		</footer>
 	</section>
 
 	<section id="posts">
-			<header>
-		<h1>Jerome Tufte's blog</h1>
-		<h3>Posted Mar 10, 2013</h3>
-	</header>
-	<article>
-		<h1 id="title">
-			<a href="./my-second-post" rel="bookmark"
+		<article>
+		<h3 class="article-date">February 22, 2013</h3>
+		<h1 class="article-title">
+			<a href="./my-second-post.html" rel="bookmark"
 				title="Permalink to Second Post - Another Article About Something Else">Second Post - Another Article About Something Else</a>
 		</h1>
 		<div class="system-message">
-<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">/Users/jerometufte/sites/python/blog/content/posts/post2.rst</tt>, line 2)</p>
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">/Users/jerometufte/sites/python/blog/content/posts/my-second-post.rst</tt>, line 2)</p>
 <p>Title underline too short.</p>
 <pre class="literal-block">
 Second Post - Another Article About Something Else
@@ -70,7 +73,7 @@ Second Post - Another Article About Something Else
 		<h2>Comments</h2>
 		<div id="disqus_thread"></div>
 		<script type="text/javascript">
-			var disqus_identifier = "my-second-post";
+			var disqus_identifier = "my-second-post.html";
 			(function() {
 				var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
 				dsq.src = 'http://tshepanglogs.disqus.com/embed.js';
