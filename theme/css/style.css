@@ -17,7 +17,7 @@ section#sidebar li{margin:0;padding:10px 0 20px;clear:both;display:block;float:n
 #user-connect .connect-linked{background-position:61px 0;}
 #user-connect .connect-twitter{background-position:90px 0;}
 footer{display:none;margin:0;padding:0;position:absolute;bottom:12px;width:100%;text-align:center;color:#aaaaaa;font-size:12px;font-weight:300;line-height:15px;}footer a{color:#777777;}
-section#posts{top:0;margin:0 0 0 320px;padding:60px 0 0 100px;min-width:710px;height:100%;background-color:rgba(255, 255, 255, 0.9);position:relative;z-index:1;}section#posts .post-image{width:60px;height:60px;float:left;}
+section#posts{position:absolute;top:0;bottom:0;margin:0 0 0 320px;padding:80px 0 0 110px;min-width:710px;height:100%;background-color:rgba(255, 255, 255, 0.9);position:relative;z-index:1;}section#posts .post-image{width:60px;height:60px;float:left;}
 section#posts .post-text{float:left;margin-left:28px;padding-top:2px;}
 section#posts .post-date{font-size:13px;font-weight:400;color:#999999;margin:0;}
 section#posts .post-title{font-size:24px;margin:0;}section#posts .post-title a:hover{color:#999999;}
@@ -41,11 +41,9 @@ section#posts td.linenos pre{margin:0;padding:0 2px;width:20px;border:none;text-
 section#posts p.paginator{display:none;margin:0;padding:0;min-height:122px;width:100%;}
 section#posts .article-date{padding:0;margin:0;font-size:14px;color:#999999;font-weight:500;}
 section#posts .article-title{margin-top:12px;}
-section#posts article{margin:0;padding:20px 40px 40px 50px;min-width:620px;position:relative;font-size:15px;line-height:25px;overflow-x:hidden;overflow-y:hidden;}section#posts article #title{margin:32px 0 0;padding:0;color:#555555;}section#posts article #title a{border:none;}
+section#posts article{margin:0;padding:20px 40px 20px 10px;min-width:620px;position:relative;font-size:18px;line-height:29px;overflow-x:hidden;overflow-y:hidden;}section#posts article #title{margin:32px 0 0;padding:0;color:#555555;}section#posts article #title a{border:none;}
 section#posts article #article_meta{margin:20px 0 0 0;padding:0;font-size:13px;line-height:16px;}
-section#posts #comments{margin:0;padding:40px 40px 40px 50px;position:relative;border-top:#555555 1px solid;font-size:15px;line-height:25px;min-height:600px;}section#posts #comments h2{color:#555555;}
-section#posts #disqus_thread{width:600px;}
-section#posts dl#tag_list{margin:0;padding:40px 40px 40px 50px;font-size:14px;line-height:18px;}section#posts dl#tag_list ul{margin:0;padding:0;}section#posts dl#tag_list ul li{margin:0;padding:0;}
+section#posts .article-footer{width:100%;padding-bottom:50px;padding-left:10px;}section#posts .article-footer .powered-by{margin-left:0;}
 section#posts dl{margin:0;padding:0;font-size:15px;line-height:25px;overflow-x:hidden;overflow-y:hidden;}section#posts dl ol{margin:0;padding:0;list-style-type:none;}section#posts dl ol li{margin:20px 0 50px 0;padding:0;}
 section#posts dl ol .title{margin:76px 0 0;padding:0;color:#555555;}section#posts dl ol .title a{border:none;}
 section#posts dl ol .entry-content{width:550px;}section#posts dl ol .entry-content ul{margin:0 0 0 15px;padding:0;list-style-position:outside;}section#posts dl ol .entry-content ul li{margin:0 0 15px 15px;padding:3px 0 3px 5px;border-bottom:0;}
