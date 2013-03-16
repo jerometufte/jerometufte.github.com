@@ -2,7 +2,10 @@
 <html lang="en">
 <head>
 	<link rel="stylesheet" type="text/css" href="./theme/css/style.css">
+	<script type="text/javascript" src="./theme/js/app.js"></script>
 	<script type="text/javascript" src="//use.typekit.net/nkp1ibx.js"></script>
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"></script>
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	<link rel="stylesheet" type="text/css" href="./theme/css/pygments.css">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:800,400,300|Inconsolata' rel='stylesheet' type='text/css'>
@@ -29,10 +32,10 @@
 																								</ul>
 		</div>
 		<ul id="user-connect">
+			<li class="connect-option connect-home"></li>
 			<li class="connect-option connect-email"></li>
-			<li class="connect-option connect-linked"></li>
-			<li class="connect-option connect-git"></li>
 			<li class="connect-option connect-twitter"></li>
+			<li class="connect-option connect-git"></li>
 		</ul>
 		<footer>
 			Powered by <a href="http://pelican.notmyidea.org/">Pelican</a> and <a href="http://pages.github.com">Github Pages</a>
@@ -44,9 +47,9 @@
 
 <dl>
     <dt>Mar 10, 2013</dt>
-    <dd><a href="./my-first-post.html">First Post - An Article About Something</a></dd>
+    <dd><a href="./my-first-post.html">Why I'm Switching Back to Firefox</a></dd>
     <dt>Mar 10, 2013</dt>
-    <dd><a href="./my-second-post.html">Second Post - Another Article About Something Else</a></dd>
+    <dd><a href="./my-second-post.html">It's Not Apple vs. Android</a></dd>
     <dt>Mar 10, 2013</dt>
     <dd><a href="./my-third-post.html">Second Post - Another Article About Something Else</a></dd>
     <dt>Jan 28, 2013</dt>
@@ -54,5 +57,9 @@
 </dl>
 	</section>
 
-	</body>
+	
+	<script>
+		BLOG.headerScroll();
+	</script>
+</body>
 </html>

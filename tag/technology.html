@@ -2,7 +2,10 @@
 <html lang="en">
 <head>
 	<link rel="stylesheet" type="text/css" href="../theme/css/style.css">
+	<script type="text/javascript" src="../theme/js/app.js"></script>
 	<script type="text/javascript" src="//use.typekit.net/nkp1ibx.js"></script>
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"></script>
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	<link rel="stylesheet" type="text/css" href="../theme/css/pygments.css">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:800,400,300|Inconsolata' rel='stylesheet' type='text/css'>
@@ -29,10 +32,10 @@
 																								</ul>
 		</div>
 		<ul id="user-connect">
+			<li class="connect-option connect-home"></li>
 			<li class="connect-option connect-email"></li>
-			<li class="connect-option connect-linked"></li>
-			<li class="connect-option connect-git"></li>
 			<li class="connect-option connect-twitter"></li>
+			<li class="connect-option connect-git"></li>
 		</ul>
 		<footer>
 			Powered by <a href="http://pelican.notmyidea.org/">Pelican</a> and <a href="http://pages.github.com">Github Pages</a>
@@ -44,23 +47,23 @@
 	<dl>
 		<ol>
 							<li>
-					<a href="../my-first-post.html" rel="bookmark" title="Permalink to First Post - An Article About Something">
+					<a href="../my-first-post.html" rel="bookmark" title="Permalink to Why I'm Switching Back to Firefox">
 						<img class="post-image" src="theme/img/post1.png" />
 						<div class="post-text">
 							<h3 class="post-date">March 10, 2013
 							<h2 class="post-title">
-								First Post - An Article About Something
+								Why I'm Switching Back to Firefox
 							</h2>
 						</div>
 					</a>
 				</li>
 							<li>
-					<a href="../my-second-post.html" rel="bookmark" title="Permalink to Second Post - Another Article About Something Else">
+					<a href="../my-second-post.html" rel="bookmark" title="Permalink to It's Not Apple vs. Android">
 						<img class="post-image" src="theme/img/post2.png" />
 						<div class="post-text">
 							<h3 class="post-date">February 22, 2013
 							<h2 class="post-title">
-								Second Post - Another Article About Something Else
+								It's Not Apple vs. Android
 							</h2>
 						</div>
 					</a>
@@ -94,5 +97,9 @@
 		</p>
 	</section>
 
-	</body>
+	
+	<script>
+		BLOG.headerScroll();
+	</script>
+</body>
 </html>
